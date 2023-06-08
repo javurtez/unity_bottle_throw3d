@@ -1,0 +1,305 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5974689312894801428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5868433358968169689}
+  - component: {fileID: 3842070039348341904}
+  m_Layer: 0
+  m_Name: PlayerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5868433358968169689
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5974689312894801428}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3842070039348341904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5974689312894801428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 932bd97d275dcaf41b8c8ea7f63c2edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 7657146099467542794, guid: 504e8b87f380a1641860c6da32565ddb, type: 3}
+    - {fileID: 7657146099467542794, guid: 09b3301e0822d6646a9da405ce18e1ac, type: 3}
+    - {fileID: 7657146099467542794, guid: ff95dcb5432a59f428499d728febf5b4, type: 3}
+    - {fileID: 7657146099467542794, guid: de48644553847714bb47ba06ce0d8d0b, type: 3}
+    - {fileID: 7657146099467542794, guid: 5b1df1432115f5c49a0f41d24c8392bb, type: 3}
+    - {fileID: 7657146099467542794, guid: fe1bf320b0b918542a47f8b7089a23d1, type: 3}
+    - {fileID: 7657146099467542794, guid: ea662299f3498eb48aaf86199789aab3, type: 3}
+    - {fileID: 7657146099467542794, guid: bcd25f282fed76d42b4c4998b03c93f9, type: 3}
+    - {fileID: 7657146099467542794, guid: a811f982365e9af448db12b5f71b7190, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: bottleDict
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[BottleData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 9
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 2|BottleData, Assembly-CSharp
+    - Name: bottleCurrent
+      Entry: 3
+      Data: 0
+    - Name: bottleObjectPrefab
+      Entry: 10
+      Data: 0
+    - Name: bottleObjectInScene
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 3|BottleData, Assembly-CSharp
+    - Name: bottleCurrent
+      Entry: 3
+      Data: 0
+    - Name: bottleObjectPrefab
+      Entry: 10
+      Data: 1
+    - Name: bottleObjectInScene
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 4|BottleData, Assembly-CSharp
+    - Name: bottleCurrent
+      Entry: 3
+      Data: 0
+    - Name: bottleObjectPrefab
+      Entry: 10
+      Data: 2
+    - Name: bottleObjectInScene
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 5|BottleData, Assembly-CSharp
+    - Name: bottleCurrent
+      Entry: 3
+      Data: 0
+    - Name: bottleObjectPrefab
+      Entry: 10
+      Data: 3
+    - Name: bottleObjectInScene
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 6|BottleData, Assembly-CSharp
+    - Name: bottleCurrent
+      Entry: 3
+      Data: 0
+    - Name: bottleObjectPrefab
+      Entry: 10
+      Data: 4
+    - Name: bottleObjectInScene
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: 7|BottleData, Assembly-CSharp
+    - Name: bottleCurrent
+      Entry: 3
+      Data: 0
+    - Name: bottleObjectPrefab
+      Entry: 10
+      Data: 5
+    - Name: bottleObjectInScene
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 7
+      Data: 8|BottleData, Assembly-CSharp
+    - Name: bottleCurrent
+      Entry: 3
+      Data: 0
+    - Name: bottleObjectPrefab
+      Entry: 10
+      Data: 6
+    - Name: bottleObjectInScene
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7
+    - Name: $v
+      Entry: 7
+      Data: 9|BottleData, Assembly-CSharp
+    - Name: bottleCurrent
+      Entry: 3
+      Data: 0
+    - Name: bottleObjectPrefab
+      Entry: 10
+      Data: 7
+    - Name: bottleObjectInScene
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: 10|BottleData, Assembly-CSharp
+    - Name: bottleCurrent
+      Entry: 3
+      Data: 0
+    - Name: bottleObjectPrefab
+      Entry: 10
+      Data: 8
+    - Name: bottleObjectInScene
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  coins: 50
+  playerObject: {fileID: 2418266479782404884, guid: d600fc650f0f2f64e960e6e560f23e97,
+    type: 3}
+  trailObject: {fileID: 0}
+  isSelectingBottle: 0
+  hasStarted: 0
